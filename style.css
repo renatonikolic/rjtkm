@@ -1,0 +1,68 @@
+.jumbotron {
+    margin-bottom:0;
+    background-image: url(jumbo.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height:300px;
+}
+
+ul{
+    width:100%;
+}
+
+li{
+    width:25%;
+    text-align: center;
+}
+
+a{
+    color:black;
+}
+
+
+.navbar{
+    background-color: darkgrey;
+}
+
+.opis img{
+    max-width:100%;
+}
+
+.col-sm-4{
+    padding:100px 0;
+    text-align: center;
+}
+
+.col-sm-8{
+    padding: 100px 0;
+    text-align: center;
+}
+
+.col-sm-8 h3{
+    text-align: center;
+}
+
+.footer{
+    text-align: center;
+    background-color: darkgrey;
+}
+
+.footer p{
+    padding:5px 0;
+}
+.forma{
+    margin: 0 auto;
+}
+#naslov{
+    text-align: center;
+}
+.posalji{
+    text-align: center;
+}
+@media only screen and (max-width: 768px){
+    li{
+        width:100%;
+        text-align: center;
+    }
+}
